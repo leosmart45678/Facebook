@@ -1,0 +1,30 @@
+
+/* Container width utility */
+.container-responsive {
+  width: 90%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Input field styling */
+.input-responsive {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+}
+
+/* Button styling */
+.button-responsive {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  font-size: 1.2em;
+}
+
+/* Flexbox utilities already available in Tailwind, but adding for completeness */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
